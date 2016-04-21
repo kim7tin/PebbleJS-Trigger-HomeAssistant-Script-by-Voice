@@ -1,0 +1,64 @@
+{
+  "name": "aes-js",
+  "version": "0.2.4",
+  "bugs": {
+    "url": "http://github.com/ricmoo/aes-js/issues",
+    "email": "github@ricmoo.com"
+  },
+  "description": "A pure JavaScript implementation of the AES block cipher and all common modes of operation.",
+  "devDependencies": {
+    "nodeunit": "0.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test-aes.js && node test/test-counter.js && node test/test-buffer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ricmoo/aes-js.git"
+  },
+  "keywords": [
+    "aes",
+    "aes-ctr",
+    "aes-ofb",
+    "aes-ecb",
+    "aes-cbc",
+    "aes-cfb",
+    "encrypt",
+    "decrypt",
+    "block",
+    "cipher"
+  ],
+  "author": {
+    "name": "Richard Moore",
+    "email": "me@ricmoo.com"
+  },
+  "license": "MIT",
+  "gitHead": "79f330d770d536d1fbb7c0845b41b60f05e5e385",
+  "homepage": "https://github.com/ricmoo/aes-js",
+  "_id": "aes-js@0.2.4",
+  "_shasum": "94b881ab717286d015fa219e08fb66709dda5a3d",
+  "_from": "aes-js@",
+  "_npmVersion": "2.5.1",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "name": "ricmoo",
+    "email": "me@ricmoo.com"
+  },
+  "maintainers": [
+    {
+      "name": "ricmoo",
+      "email": "me@ricmoo.com"
+    }
+  ],
+  "dist": {
+    "shasum": "94b881ab717286d015fa219e08fb66709dda5a3d",
+    "tarball": "http://registry.npmjs.org/aes-js/-/aes-js-0.2.4.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/aes-js-0.2.4.tgz_1456558944058_0.594102936796844"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/aes-js/-/aes-js-0.2.4.tgz"
+}
