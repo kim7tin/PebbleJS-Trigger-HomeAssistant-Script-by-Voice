@@ -1,0 +1,19 @@
+{
+  "uuid": "3a9d10ac-cf8b-40b7-b449-98609d1aeb80",
+  "shortName": "pebble_voice_control_watchman",
+  "longName": "pebble_voice_control_watchman",
+  "companyName": "MakeAwesomeHappen",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt", "chalk"],
+  "enableMultiJS": true,
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
