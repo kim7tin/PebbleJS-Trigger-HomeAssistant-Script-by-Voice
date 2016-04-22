@@ -1,19 +1,66 @@
 {
-  "uuid": "3a9d10ac-cf8b-40b7-b449-98609d1aeb80",
-  "shortName": "pebble_voice_control_watchman",
-  "longName": "pebble_voice_control_watchman",
-  "companyName": "MakeAwesomeHappen",
-  "versionLabel": "1.0",
+  "appKeys": {},
+  "capabilities": [
+    "configurable"
+  ],
+  "companyName": "KoolTechs",
+  "longName": "Pebble.js",
+  "resources": {
+    "media": [
+      {
+        "file": "images/menu_icon.png",
+        "menuIcon": true,
+        "name": "IMAGE_MENU_ICON",
+        "type": "bitmap"
+      },
+      {
+        "file": "images/logo_splash.png",
+        "name": "IMAGE_LOGO_SPLASH",
+        "type": "bitmap"
+      },
+      {
+        "file": "images/tile_splash.png",
+        "name": "IMAGE_TILE_SPLASH",
+        "type": "bitmap"
+      },
+      {
+        "file": "images/st_bw.png",
+        "name": "IMAGE_STARTUP_BLACKWHITE",
+        "type": "bitmap"
+      },
+      {
+        "file": "images/st_cl.png",
+        "name": "IMAGE_STARTUP_BG_COLOR",
+        "type": "bitmap"
+      },
+      {
+        "file": "fonts/UbuntuMono-Regular.ttf",
+        "name": "MONO_FONT_14",
+        "type": "font"
+      },
+      {
+        "file": "images/icons/ventilation.png",
+        "name": "ICON_VENTILATION",
+        "type": "bitmap"
+      },
+      {
+        "file": "images/icons/bulb.png",
+        "name": "ICON_BULB",
+        "type": "bitmap"
+      }
+    ]
+  },
   "sdkVersion": "3",
-  "targetPlatforms": ["aplite", "basalt", "chalk"],
-  "enableMultiJS": true,
+  "shortName": "Watchman",
+  "targetPlatforms": [
+    "aplite",
+    "basalt",
+    "chalk"
+  ],
+  "uuid": "846ba6c4-8093-4fbd-8041-8e5190f789cf",
+  "versionCode": 1,
+  "versionLabel": "0.4",
   "watchapp": {
     "watchface": false
-  },
-  "appKeys": {
-    "dummy": 0
-  },
-  "resources": {
-    "media": []
   }
 }
